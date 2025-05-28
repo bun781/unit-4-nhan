@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3008" dy="2995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2105" dy="1778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -558,6 +558,35 @@
         </mxCell>
         <mxCell id="gBQ5npc-u4vOxqxNAHyQ-90" value="&lt;div&gt;return the dictionary&amp;nbsp;&lt;/div&gt;&lt;div&gt;containing the sets of users at&lt;/div&gt;&lt;div&gt;different connection depth &lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1162.5" y="1430" width="245" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-92" target="gBQ5npc-u4vOxqxNAHyQ-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-92" value="colored label search" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1610" y="-240" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-96" target="gBQ5npc-u4vOxqxNAHyQ-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-96" value="input hex color" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1595" y="-150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-97" target="gBQ5npc-u4vOxqxNAHyQ-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-97" value="input tolerance" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1595" y="-70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-100" target="gBQ5npc-u4vOxqxNAHyQ-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1535" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-100" value="convert hex color into rgb values" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1620" y="20" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-104" value="&lt;div&gt;loop for every tag&lt;/div&gt;&lt;div&gt;in the tag library&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1605" y="130" width="140" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
