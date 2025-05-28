@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2228" dy="1567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3008" dy="2995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -439,11 +439,125 @@
         <mxCell id="gBQ5npc-u4vOxqxNAHyQ-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-50" target="gBQ5npc-u4vOxqxNAHyQ-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-50" value="Searching for user connection" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1100" y="-240" width="120" height="60" as="geometry" />
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-50" value="Connection search for a user (initial user)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1115" y="-240" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-51" value="set data = long text with indicators" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-51" target="gBQ5npc-u4vOxqxNAHyQ-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-51" value="visited is a set of visited users, which includes the initial user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1100" y="-140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-53" target="gBQ5npc-u4vOxqxNAHyQ-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-53" value="current_level is the set that stores the users that has connection with the user at the current relationship depth" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1125" y="-50" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-55" target="gBQ5npc-u4vOxqxNAHyQ-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-55" target="gBQ5npc-u4vOxqxNAHyQ-90">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-850" y="100" />
+              <mxPoint x="-850" y="1380" />
+              <mxPoint x="-1040" y="1380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-55" value="&lt;div&gt;loop for connections&lt;/div&gt;&lt;div&gt;depth from 1 to 3&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1110" y="60" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-59" target="gBQ5npc-u4vOxqxNAHyQ-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-59" target="gBQ5npc-u4vOxqxNAHyQ-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-900" y="310" />
+              <mxPoint x="-900" y="680" />
+              <mxPoint x="-1040" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-59" value="&lt;div&gt;loop for every user&lt;/div&gt;&lt;div&gt;in current_level&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;labelPosition=center;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1110" y="270" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-60" target="gBQ5npc-u4vOxqxNAHyQ-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-60" value="retrieve from the database the name of users who are connected with the user at this level into a set" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1125" y="390" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-62" target="gBQ5npc-u4vOxqxNAHyQ-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-62" value="remove users who had already been found before from the set" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1125" y="490" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-64" target="gBQ5npc-u4vOxqxNAHyQ-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1040" y="660" />
+              <mxPoint x="-1170" y="660" />
+              <mxPoint x="-1170" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-64" value="add this set to the set of users at this connection depth" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1125" y="580" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-69" target="gBQ5npc-u4vOxqxNAHyQ-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-69" value="create an empty set to put users at this connection depth" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1125" y="170" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-75" target="gBQ5npc-u4vOxqxNAHyQ-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-75" target="gBQ5npc-u4vOxqxNAHyQ-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1180" y="785" />
+              <mxPoint x="-1180" y="990" />
+              <mxPoint x="-1040" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-75" value="&lt;div&gt;if there are no&lt;/div&gt;&lt;div&gt;users at this&lt;/div&gt;&lt;div&gt;connection depth&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1105" y="720" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-77" value="&lt;div&gt;return the dictionary&amp;nbsp;&lt;/div&gt;&lt;div&gt;containing the current sets of users at&lt;/div&gt;&lt;div&gt;different connection depth &lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1162.5" y="870" width="245" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-79" target="gBQ5npc-u4vOxqxNAHyQ-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-79" value="add the set of users who are connected with the user at this level into the set of users that were found" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1125" y="1030" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-82" target="gBQ5npc-u4vOxqxNAHyQ-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-82" value="add the set of users who are connected with the user at this level into the dictionary containing sets of users at various depth" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1125" y="1120" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBQ5npc-u4vOxqxNAHyQ-85" target="gBQ5npc-u4vOxqxNAHyQ-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1040" y="1340" />
+              <mxPoint x="-1240" y="1340" />
+              <mxPoint x="-1240" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-85" value="set the set of users who are connected with the users at this level as the set of users who are connected with the users at the previous level" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1137.5" y="1240" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gBQ5npc-u4vOxqxNAHyQ-90" value="&lt;div&gt;return the dictionary&amp;nbsp;&lt;/div&gt;&lt;div&gt;containing the sets of users at&lt;/div&gt;&lt;div&gt;different connection depth &lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1162.5" y="1430" width="245" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
